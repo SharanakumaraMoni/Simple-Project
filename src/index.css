@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Ant Design Overrides */
+.ant-table {
+  border-radius: 8px;
+}
+.ant-btn {
+  background-color: #4f46e5;
+  color: white;
+}
+
+:where(.css-dev-only-do-not-override-142vneq).ant-menu-dark
+  .ant-menu-item-selected {
+  background-color: #f27024 !important;
+}
+
+body {
+  font-family: "Lato", serif;
+}
+/* .ant-table-filter-trigger-active {
+  color: #f27024 !important; 
+} */
+.ant-btn {
+  background-color: #f27024 !important; ;
+  color: white;
+}
